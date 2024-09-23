@@ -1,0 +1,149 @@
+/*Importing fonts*/
+
+@font-face {
+    font-family: 'Inter';
+    src: url("assets/fonts/Inter/Inter-VariableFont_opsz,wght.ttf") format('truetype');
+}
+
+
+/*Variables*/
+
+
+
+
+/* Animations */
+
+@keyframes slideNavBarIn {
+    from {
+        right: -100vw;
+    }
+    to {
+        right: 0;
+    }
+}
+
+@keyframes slideNavBarOut {
+    from {
+        right: 0;
+    }
+    to {
+        right: -100vw;
+    }
+}
+
+
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    user-select: none;
+}
+
+body{
+    position: relative;
+}
+
+.logoBar {
+    position: fixed;
+    top: 0;
+    font-weight: bold;
+    z-index: 87;
+}
+
+.navBar {
+    position: fixed;
+    font-weight: bold;
+    z-index: 69;
+
+}
+
+.navBarItems {
+    list-style-type: none;
+}
+
+.burgerMenuIcon {
+    background: transparent;
+    filter: invert(var(--invert));
+}
+
+.navBarItemLink:hover, .navBarItemLink:focus {
+    text-decoration: underline;
+    text-decoration-thickness: 0.15rem;
+}
+
+@media (min-width: 769px) {
+    .logoBar {
+        padding: 2rem;
+        font-size: 2.5rem;
+        letter-spacing: 0.5ch;
+        width: 100%;
+    }
+
+    .burgerMenu {
+        display: none;
+        visibility: hidden;
+    }
+
+    .navBar {
+        left: 0;
+        height: 100%;
+        width: 15%;
+        padding-top: 12rem;
+        padding-left: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .switchModeIcon {
+        width: 1.5rem;
+    }
+
+
+    .navBarLinksBR {
+        display: block;
+        height: 1.75rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .logoBar {
+        position: absolute;
+        width: 100vw;
+        text-align: center;
+        top: 0rem;
+        padding-top: 2rem;
+        font-size: 1.75rem;
+        letter-spacing: 0.375ch;
+    }
+
+    .burgerMenu {
+        position: fixed;
+        top: 2rem;
+        width: 1.75rem;
+        right: 1ch;
+        z-index: 87;
+    }
+
+    #navBar_ {
+        right: -100vw;
+        width: 100vw;
+        height: 100vh;
+        padding-top: 8rem;
+        padding-right: 1ch;
+        font-size: 1.5rem;
+        text-align: right;
+    }
+
+    .switchModeIcon {
+        width: 1.5rem;
+    }
+
+    .navBarLinksBR {
+        display: block;
+        height: 1rem;
+    }
+
+
+}
+

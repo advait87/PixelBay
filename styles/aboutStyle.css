@@ -1,0 +1,54 @@
+
+#aboutNavLink {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+@media (min-width: 769px) {
+    .aboutBox {
+        width: 60%;
+        /* height: 10%; */
+        position: absolute;
+        display: flex;
+        top: 12rem;
+        left: 20%;
+        /* transform: translateX(-50%); */
+    }
+
+    .aboutBoxImage {
+        height: 30rem;
+        }
+
+    .aboutBoxBR {
+        width: 4ch;
+    }
+
+    .aboutImg {
+        height: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .aboutBox {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 6rem;
+        width: 90vw;
+    }
+
+    .aboutBoxImage {
+        width: 100%;
+        text-align: center;
+    }
+
+    .aboutImg {
+        width: 100%;
+        margin: auto;
+    }
+
+    .aboutBoxBR {
+        display: block;
+        height: 4rem;
+    }
+}

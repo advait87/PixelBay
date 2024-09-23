@@ -1,0 +1,51 @@
+#homeNavLink {
+    text-decoration: underline;
+    text-decoration-thickness: 0.2rem;
+}
+
+@media (min-width: 769px) {
+    .indexContent {
+        position: absolute;
+        left: 50%;
+        top: 12rem;
+        transform: translateX(-50%);
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: 0.25ch;
+
+    }
+
+    .indexContentBR {
+        display: block;
+        height: 2rem;
+
+    }
+}
+
+
+@media (max-width: 768px) {
+    .indexContent {
+        position: absolute;
+        top: 10rem;
+        margin: auto;
+        width: 100vw;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+        letter-spacing: 0.25ch;
+        /* position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-50%,50%); */
+    }
+
+    .pixel9Pro {
+        height: 40vh;
+    }
+
+    .indexContentBR {
+        display: block;
+        height: 1rem;
+    }
+}

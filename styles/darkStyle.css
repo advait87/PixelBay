@@ -1,0 +1,15 @@
+:root {
+    --bakcgroundColor: #000;
+    --textColor: #fff;
+    --invert: 100%;
+}
+
+* {
+    background-color: var(--bakcgroundColor);
+    color: var(--textColor);
+}
+
+.lightModeIcon {
+    filter: invert(100%);
+    background: transparent;
+}

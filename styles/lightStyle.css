@@ -1,0 +1,10 @@
+:root {
+    --backgroundColor: #fff;
+    --textColor: #000;
+    --invert: 0%;
+}
+
+* {
+    background-color: var(--backgroundColor);
+    color: var(--textColor);
+}
