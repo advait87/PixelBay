@@ -4,3 +4,5 @@ Credits:
 Icons from flaticon
 Fonts from Google Fonts
 Images from 9to5google.com and amazon.com
+
+Design inspired from www.davidimel.com
