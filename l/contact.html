@@ -1,27 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Change title and add stylesheet -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PIXEL BAY</title>
     <link rel="stylesheet" href="/styles/lightStyle.css">
     <link rel="stylesheet" href="/styles/sitewideStyle.css">
-    <link rel="stylesheet" href="/styles/indexStyles.css">
+    <link rel="stylesheet" href="/styles/contactStyle.css">
 </head>
+
 <body>
     <!-- Logo and burger icon -->
     <div class="logoBar" id="logoBar_">
         PIXEL BAY
     </div>
     <div class="burgerMenu" id="burgerMenu_">
-        <img src="/assets/images/burgerIcon.png" alt="Menu" class="burgerMenuIcon" id="burgerMenuIcon_" onclick="burgerIconClicked()">
+        <img src="/assets/images/burgerIcon.png" alt="Menu" class="burgerMenuIcon" id="burgerMenuIcon_"
+            onclick="burgerIconClicked()">
     </div>
 
     <!-- Nav bar -->
     <div class="navBar" id="navBar_">
         <ul class="navBarItems" id="navBarItems_">
-
-            <a href="/d/index.html"><img src="/assets/images/moonIcon.png" alt="Dark Mode"
+            <a href="/d/contact.html"><img src="/assets/images/moonIcon.png" alt="Dark Mode"
                 class="darkModeIcon switchModeIcon"></a>
         <span class="navBarLinksBR"></span>
             <a href="/l/index.html" class="navBarItemLink" id="homeNavLink">
@@ -43,11 +47,29 @@
     </div>
 
     <!-- Page -->
-    <div class="indexContent" id="indexContent">
-        <img src="/assets/images/pixel 9 pro l.png" alt="Black Pixel 9 Pro`" class="pixel9Pro" id="blackPixel9Pro">
-        <span class="indexContentBR"></span>
-        ALL THINGS PIXEL
+    <div class="mainBox" id="mainBox_">
+        <div class="contactTextBox" id="contactTextBox_">
+            Mail if it's serious or I'm also on X.
+        </div>
+        <div class="contactLinksBox" id="contactLinksBox_">
+            <ul class="contactLinks" id="contactLinks">
+                <a href="https://x.com/abnormalABA" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/XLogo.png" alt="X logo" class="contactImg">/advait87</li>
+                </a>
+                <span class="contactLinkBR"></span>
+                <a href="https://github.com/advait87" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/githubLogo.png" alt="Github logo" class="contactImg">/advait87</li>
+                </a>
+                <span class="contactLinkBR"></span>
+                <a href="mailto:24110039@iitgn.ac.in" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/mailIcon.png" alt="Mail icon" class="contactImg">24110039@iitgn.ac.in</li>
+                </a>
+            </ul>
+        </div>
     </div>
+
+
     <script src="/scripts/sitewideScript.js"></script>
 </body>
+
 </html>
