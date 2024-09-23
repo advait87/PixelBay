@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Change title and add stylesheet -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXEL BAY</title>
+    <link rel="stylesheet" href="/styles/darkStyle.css">
+    <link rel="stylesheet" href="/styles/sitewideStyle.css">
+    <link rel="stylesheet" href="/styles/contactStyle.css">
+</head>
+
+<body>
+    <!-- Logo and burger icon -->
+    <div class="logoBar" id="logoBar_">
+        PIXEL BAY
+    </div>
+    <div class="burgerMenu" id="burgerMenu_">
+        <img src="/assets/images/burgerIcon.png" alt="Menu" class="burgerMenuIcon" id="burgerMenuIcon_"
+            onclick="burgerIconClicked()">
+    </div>
+
+    <!-- Nav bar -->
+    <div class="navBar" id="navBar_">
+        <ul class="navBarItems" id="navBarItems_">
+            <a href="/l/contact.html"><img src="/assets/images/sunIcon.png" alt="Light Mode"
+                class="lightModeIcon switchModeIcon"></a>
+        <span class="navBarLinksBR"></span>
+            <a href="/d/index.html" class="navBarItemLink" id="homeNavLink">
+                <li class="navBarItem">Home</li>
+            </a>
+            <span class="navBarLinksBR"></span>
+            <a href="/d/blogs.html" class="navBarItemLink" id="blogsNavLink">
+                <li class="navBarItem">Blogs</li>
+            </a>
+            <span class="navBarLinksBR"></span>
+            <a href="/d/about.html" class="navBarItemLink" id="aboutNavLink">
+                <li class="navBarItem">About</li>
+            </a>
+            <span class="navBarLinksBR"></span>
+            <a href="/d/contact.html" class="navBarItemLink" id="contactNavLink">
+                <li class="navBarItem">Contact</li>
+            </a>
+        </ul>
+    </div>
+
+    <!-- Page -->
+    <div class="mainBox" id="mainBox_">
+        <div class="contactTextBox" id="contactTextBox_">
+            Mail if it's serious or I'm also on X.
+        </div>
+        <div class="contactLinksBox" id="contactLinksBox_">
+            <ul class="contactLinks" id="contactLinks">
+                <a href="https://x.com/abnormalABA" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/XLogo.png" alt="X logo" class="contactImg">/advait87</li>
+                </a>
+                <span class="contactLinkBR"></span>
+                <a href="https://github.com/advait87" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/githubLogo.png" alt="Github logo" class="contactImg">/advait87</li>
+                </a>
+                <span class="contactLinkBR"></span>
+                <a href="mailto:24110039@iitgn.ac.in" id="contactLink_">
+                    <li class="contactLink"><img src="/assets/images/mailIcon.png" alt="Mail icon" class="contactImg">24110039@iitgn.ac.in</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+
+    <script src="/scripts/sitewideScript.js"></script>
+</body>
+
+</html>
